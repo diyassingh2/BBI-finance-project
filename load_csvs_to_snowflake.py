@@ -36,6 +36,7 @@ with DAG(
             FORCE = TRUE;
         """,
     )
+renamed file to .py for airflow
 
     load_personal_loan_modeling = SnowflakeOperator(
         task_id='load_personal_loan_modeling_cleaned',
